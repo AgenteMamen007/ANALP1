@@ -12,6 +12,8 @@
 
 #include "sorting.h"
 
+#include <stdio.h>
+
 /***************************************************/
 /* Function: InsertSort    Date:                   */
 /* Your comment                                    */
@@ -19,6 +21,29 @@
 int InsertSort(int* array, int ip, int iu)
 {
   /* Your code */
+  int i, j, a, n = 0;
+  if (!array || ip < 0 || iu < 0 || ip > iu) {
+    return ERR;
+  }
+
+  for (i = ip+1; i <= iu; i++) {
+    a = array[i];
+    j = i - 1;
+
+    while (j >= ip) {
+      n++; /*Contamos la comparacion del bucle mas interno: array[j] > a*/
+      if (array[j] > a) {
+        array[j+1] = array[j];
+        j--;
+      } else {
+          break;
+      }
+    }
+
+    array[j+1] = a;
+  }
+
+  return n;
 }
 
 
@@ -26,10 +51,11 @@ int InsertSort(int* array, int ip, int iu)
 /* Function: SelectSort    Date:                   */
 /* Your comment                                    */
 /***************************************************/
-int BubbleSort(int* array, int ip, int iu)
+/*int BubbleSort(int* array, int ip, int iu)
 {
   /* Your code */
-}
+/*}
+*/
 
 
 
