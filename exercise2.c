@@ -1,6 +1,6 @@
 /********************************************************/
-/* Program: exeercise2      Date:                       */
-/* Authors:                                             */
+/* Program: exeercise2      Date: 7/10/2026             */
+/* Authors: Rodrigo Lopez & Iulian Bidila               */
 /*                                                      */
 /* Program that generates random permutations           */
 /*                                                      */

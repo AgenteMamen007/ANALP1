@@ -11,6 +11,7 @@
 
 #include "times.h"
 #include "sorting.h"
+#include "permutations.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

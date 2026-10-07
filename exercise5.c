@@ -1,6 +1,6 @@
 /***********************************************************/
-/* Program: exercise5                  Date:               */
-/* Authors:                                                */
+/* Program: exercise5                  Date: 7/10/2026     */
+/* Authors: Rodrigo Lopez & Iulian Bidila                  */
 /*                                                         */
 /* Programa that writes in a file                          */
 /* the average times of the algorithm                      */

@@ -1,6 +1,6 @@
 /**************************************************/
-/* Program: exercise3       Date:                 */
-/* Authors:                                       */
+/* Program: exercise3       Date: 7/10/2026       */
+/* Authors: Rodrigo Lopez & Iulian Bidila         */
 /*                                                */
 /* Program that generates N random permutations   */
 /* with M elementos each                          */

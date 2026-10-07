@@ -1,6 +1,6 @@
 /***********************************************/
-/* Program: exercise1     Date:                */
-/* Authors:                                    */
+/* Program: exercise1     Date: 7/10/2026      */
+/* Authors: Rodrigo Lopez & Iulian Bidila      */
 /*                                             */
 /* Program that generates two random nunmbers  */
 /* between two given numbers                   */
